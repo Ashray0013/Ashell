@@ -26,7 +26,8 @@ A shell is a special program integrated into an operating system that provides h
 ## Usage Examples
 
 - Run a command:
-```gcc runcmd.c -o runcmd && ./runcmd
+```bash
+gcc runcmd.c -o runcmd && ./runcmd
 ```
 
 - Pipe commands:
@@ -42,6 +43,11 @@ ls > out.txt
 - Redirect input:
 ```bash
 sort < input.txt
+```
+
+- Background Process:
+```bash
+sleep 10 &
 ```
 
 - `cd <dir>`
